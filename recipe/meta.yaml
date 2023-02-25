@@ -1,6 +1,6 @@
 {% set name = "xeus-qt" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "74e43965abe7ab08d960eea2c021222adf0331fd140d7de3915d635b041fd0ed" %}
+{% set version = "0.1.2" %}
+{% set sha256 = "0084d49dfd2a37ed04fa368179a3711b46bc7f02266533b8a7414781ccbcead9" %}
 
 package:
   name: {{ name|lower }}
