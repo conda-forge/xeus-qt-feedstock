@@ -1,6 +1,5 @@
 {% set name = "xeus-qt" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "0084d49dfd2a37ed04fa368179a3711b46bc7f02266533b8a7414781ccbcead9" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/jupyter-xeus/xeus-qt/archive/{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: c652d316ce00a2223ada86ab998a51bc941abdc811c17df326be8510713ead17
 
 build:
   number: 0
